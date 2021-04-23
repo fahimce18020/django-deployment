@@ -14,6 +14,7 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+TEMPLATE_PATH = os.path.join(BASE_DIR, 'Templates')
 MEDIA_DIR = os.path.join(BASE_DIR,'media')
 
 
@@ -56,7 +57,7 @@ ROOT_URLCONF = 'My_user_auth_Project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [r'C:\Users\Lenovo\Desktop\Django Practice\MY_GET_REPO\My_user_auth_Project\Templates'],
+        'DIRS': [TEMPLATE_PATH],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
