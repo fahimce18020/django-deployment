@@ -56,7 +56,7 @@ ROOT_URLCONF = 'My_user_auth_Project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [r'C:\Users\Lenovo\Desktop\Django Practice\My_user_auth_Project\Templates'],
+        'DIRS': [r'C:\Users\Lenovo\Desktop\Django Practice\MY_GET_REPO\My_user_auth_Project\Templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
